@@ -1,0 +1,13 @@
+package_with_pens_price=5.8
+package_with_markes_price=7.2
+cleaming_material_price=1.2
+number_of_pen_packages=int(input())
+number_of_marker_packages=int(input())
+liters_of_cleaning_material=int(input())
+discount=int(input())
+price_of_pens=package_with_pens_price*number_of_pen_packages
+price_of_markers=package_with_markes_price*number_of_marker_packages
+price_of_cleaning_material=cleaming_material_price*liters_of_cleaning_material
+price_of_all=price_of_pens+price_of_markers+price_of_cleaning_material
+price_with_discount=price_of_all-price_of_all*discount/100
+print(price_with_discount)

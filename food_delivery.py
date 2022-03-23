@@ -1,0 +1,13 @@
+chicken_menue=10.35
+fish_menue=12.4
+vegetarian_menue=8.15
+ordered_chicken=int(input())
+ordered_fish=int(input())
+ordered_vegie=int(input())
+price_for_chicken=chicken_menue*ordered_chicken
+price_for_fish=fish_menue*ordered_fish
+price_for_vegie=vegetarian_menue*ordered_vegie
+dessert=(price_for_chicken+price_for_fish+price_for_vegie)*0.2
+devivery=2.5
+price_for_the_order=price_for_chicken+price_for_fish+price_for_vegie+dessert+devivery
+print(price_for_the_order)

@@ -1,0 +1,9 @@
+lenght_in_cm=int(input())
+width_in_cm=int(input())
+height_in_cm=int(input())
+percent=float(input())
+volume_in_cubic_cm=lenght_in_cm*width_in_cm*height_in_cm
+volume_in_liters=volume_in_cubic_cm/1000
+sand_and_other_stuff=percent/100
+liters_needed=volume_in_liters*(1-sand_and_other_stuff)
+print(liters_needed)
